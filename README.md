@@ -3,8 +3,8 @@
 This project was made as a challenge for listing vehicles and show the details of those vehicles.
 
 List of vehicles, with pagination and filters:
+<img width="2940" height="2650" alt="vehicleList" src="https://github.com/user-attachments/assets/f6775e33-ffc0-4de8-a68d-31d408ada285" />
 
-<img width="2940" height="2646" alt="vehiclesList" src="https://github.com/user-attachments/assets/973d79cf-9851-4eb6-a659-cdc0aa4ed0cd" />
 
 Details page for a specific vehicle:
 
