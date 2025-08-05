@@ -1,0 +1,631 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VehicleDetails Renders VehicleDetails correctly 1`] = `
+<div>
+  <div
+    class="MuiGrid-root MuiGrid-container css-mhc70k-MuiGrid-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 css-1idn90j-MuiGrid-root"
+    >
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-vq5nh1-MuiButtonBase-root-MuiButton-root"
+        data-testid="back-button"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-icon MuiButton-startIcon MuiButton-iconSizeMedium css-1d6wzja-MuiButton-startIcon"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="ArrowBackIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20z"
+            />
+          </svg>
+        </span>
+        Back to list
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 css-1idn90j-MuiGrid-root"
+      data-testid="vehicle-main-info"
+    >
+      <div
+        class="MuiBox-root css-10trl62"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container css-mhc70k-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-7 MuiGrid-grid-md-7 css-1rh321n-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-qixr6d"
+            >
+              <img
+                alt="Car"
+                src="empty_photo.jpg"
+                style="width: 100%; max-width: 300px; object-fit: cover; object-position: center; border-radius: 12px; display: block; opacity: 0.7;"
+              />
+            </div>
+            <div
+              class="MuiBox-root css-zlnkop"
+            >
+              <img
+                alt="Car"
+                src="empty_photo.jpg"
+                style="width: 110px; object-fit: cover; object-position: center; border-radius: 12px; display: block; opacity: 0.7;"
+              />
+              <img
+                alt="Car"
+                src="empty_photo.jpg"
+                style="width: 110px; object-fit: cover; object-position: center; border-radius: 12px; display: block; opacity: 0.7;"
+              />
+              <img
+                alt="Car"
+                src="empty_photo.jpg"
+                style="width: 110px; object-fit: cover; object-position: center; border-radius: 12px; display: block; opacity: 0.7;"
+              />
+              <img
+                alt="Car"
+                src="empty_photo.jpg"
+                style="width: 110px; object-fit: cover; object-position: center; border-radius: 12px; display: block; opacity: 0.7;"
+              />
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-5 MuiGrid-grid-md-5 css-11lxi55-MuiGrid-root"
+          >
+            <button
+              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1u2l4gi-MuiButtonBase-root-MuiIconButton-root"
+              tabindex="0"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                data-testid="StarBorderOutlinedIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="m22 9.24-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28z"
+                />
+              </svg>
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+            <div
+              class="MuiBox-root css-1i43dhb"
+            >
+              <h5
+                class="MuiTypography-root MuiTypography-h5 css-o8v361-MuiTypography-root"
+              >
+                Ford
+                 - 
+                Fiesta
+              </h5>
+              <div
+                class="MuiBox-root css-0"
+              >
+                <span
+                  class="MuiTypography-root MuiTypography-body3 css-1p3ip6s-MuiTypography-root"
+                >
+                  Fuel
+                </span>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-3uxmf5-MuiTypography-root"
+                >
+                  petrol
+                </p>
+              </div>
+              <div
+                class="MuiBox-root css-0"
+              >
+                <span
+                  class="MuiTypography-root MuiTypography-body3 css-1p3ip6s-MuiTypography-root"
+                >
+                  Vehicle Year
+                </span>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-3uxmf5-MuiTypography-root"
+                >
+                  2022
+                </p>
+              </div>
+              <div
+                class="MuiBox-root css-0"
+              >
+                <span
+                  class="MuiTypography-root MuiTypography-body3 css-1p3ip6s-MuiTypography-root"
+                >
+                  Vehicle Mileage
+                </span>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-3uxmf5-MuiTypography-root"
+                >
+                  9084 Miles
+                </p>
+              </div>
+              <div
+                class="MuiBox-root css-0"
+              >
+                <span
+                  class="MuiTypography-root MuiTypography-body3 css-1p3ip6s-MuiTypography-root"
+                >
+                  Starting Bid
+                </span>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-3uxmf5-MuiTypography-root"
+                >
+                  £15,000.00
+                </p>
+              </div>
+              <div
+                class="MuiBox-root css-0"
+              >
+                <span
+                  class="MuiTypography-root MuiTypography-body3 css-1p3ip6s-MuiTypography-root"
+                >
+                  Auction Date
+                </span>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-3uxmf5-MuiTypography-root"
+                >
+                  15 Apr 2024, 09:00
+                </p>
+                <span
+                  class="MuiTypography-root MuiTypography-body3 css-jouwp7-MuiTypography-root"
+                >
+                  (
+                  475 day(s) and 16 hour(s) ago
+                  )
+                </span>
+              </div>
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary Mui-disabled MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary css-9wvbqu-MuiButtonBase-root-MuiButton-root"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                Bid now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 css-ok2iup-MuiGrid-root"
+      data-testid="vehicle-additional-info"
+    >
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded MuiAccordion-gutters css-1b2vurp-MuiPaper-root-MuiAccordion-root"
+        data-testid="accordion"
+      >
+        <div
+          aria-controls="accordion-details-undefined-specification"
+          aria-expanded="false"
+          class="MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-1e7l4tw-MuiButtonBase-root-MuiAccordionSummary-root"
+          id="accordion-summary-undefined-specification"
+          role="button"
+          tabindex="0"
+        >
+          <div
+            class="MuiAccordionSummary-content MuiAccordionSummary-contentGutters css-eqpfi5-MuiAccordionSummary-content"
+          >
+            <h5
+              class="MuiTypography-root MuiTypography-h5 css-kcq9hy-MuiTypography-root"
+            >
+              Additional information
+            </h5>
+          </div>
+          <div
+            class="MuiAccordionSummary-expandIconWrapper css-yw020d-MuiAccordionSummary-expandIconWrapper"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="KeyboardArrowDownIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-bz4dnt-MuiCollapse-root"
+          style="min-height: 0px;"
+        >
+          <div
+            class="MuiCollapse-wrapper MuiCollapse-vertical css-smkl36-MuiCollapse-wrapper"
+          >
+            <div
+              class="MuiCollapse-wrapperInner MuiCollapse-vertical css-9l5vo-MuiCollapse-wrapperInner"
+            >
+              <div
+                aria-labelledby="accordion-summary-undefined-specification"
+                class="MuiAccordion-region"
+                id="accordion-details-undefined-specification"
+                role="region"
+              >
+                <div
+                  class="MuiAccordionDetails-root css-1is2or-MuiAccordionDetails-root"
+                  id="accordion-details-undefined-specification"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 css-wg4xta-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiBox-root css-0"
+                      >
+                        <span
+                          class="MuiTypography-root MuiTypography-body3 css-1p3ip6s-MuiTypography-root"
+                        >
+                          Vehicle Type
+                        </span>
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-3uxmf5-MuiTypography-root"
+                        >
+                          Car
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 css-wg4xta-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiBox-root css-0"
+                      >
+                        <span
+                          class="MuiTypography-root MuiTypography-body3 css-1p3ip6s-MuiTypography-root"
+                        >
+                          Vehicle Colour
+                        </span>
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-3uxmf5-MuiTypography-root"
+                        >
+                          RED
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 css-wg4xta-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiBox-root css-0"
+                      >
+                        <span
+                          class="MuiTypography-root MuiTypography-body3 css-1p3ip6s-MuiTypography-root"
+                        >
+                          Vehicle Transmission
+                        </span>
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-3uxmf5-MuiTypography-root"
+                        >
+                          Manual
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 css-wg4xta-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiBox-root css-0"
+                      >
+                        <span
+                          class="MuiTypography-root MuiTypography-body3 css-1p3ip6s-MuiTypography-root"
+                        >
+                          No of Doors
+                        </span>
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-3uxmf5-MuiTypography-root"
+                        >
+                          3
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 css-wg4xta-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiBox-root css-0"
+                      >
+                        <span
+                          class="MuiTypography-root MuiTypography-body3 css-1p3ip6s-MuiTypography-root"
+                        >
+                          No of Keys
+                        </span>
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-3uxmf5-MuiTypography-root"
+                        >
+                          2
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 css-wg4xta-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiBox-root css-0"
+                      >
+                        <span
+                          class="MuiTypography-root MuiTypography-body3 css-1p3ip6s-MuiTypography-root"
+                        >
+                          CO2 Emissions
+                        </span>
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-3uxmf5-MuiTypography-root"
+                        >
+                          139 g/km
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 css-wg4xta-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiBox-root css-0"
+                      >
+                        <span
+                          class="MuiTypography-root MuiTypography-body3 css-1p3ip6s-MuiTypography-root"
+                        >
+                          NOX Emissions
+                        </span>
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-3uxmf5-MuiTypography-root"
+                        >
+                          230
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded MuiAccordion-gutters css-1b2vurp-MuiPaper-root-MuiAccordion-root"
+        data-testid="accordion"
+      >
+        <div
+          aria-controls="accordion-details-undefined-ownership"
+          aria-expanded="false"
+          class="MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-1e7l4tw-MuiButtonBase-root-MuiAccordionSummary-root"
+          id="accordion-summary-undefined-ownership"
+          role="button"
+          tabindex="0"
+        >
+          <div
+            class="MuiAccordionSummary-content MuiAccordionSummary-contentGutters css-eqpfi5-MuiAccordionSummary-content"
+          >
+            <h5
+              class="MuiTypography-root MuiTypography-h5 css-kcq9hy-MuiTypography-root"
+            >
+              Ownership information
+            </h5>
+          </div>
+          <div
+            class="MuiAccordionSummary-expandIconWrapper css-yw020d-MuiAccordionSummary-expandIconWrapper"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="KeyboardArrowDownIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-bz4dnt-MuiCollapse-root"
+          style="min-height: 0px;"
+        >
+          <div
+            class="MuiCollapse-wrapper MuiCollapse-vertical css-smkl36-MuiCollapse-wrapper"
+          >
+            <div
+              class="MuiCollapse-wrapperInner MuiCollapse-vertical css-9l5vo-MuiCollapse-wrapperInner"
+            >
+              <div
+                aria-labelledby="accordion-summary-undefined-ownership"
+                class="MuiAccordion-region"
+                id="accordion-details-undefined-ownership"
+                role="region"
+              >
+                <div
+                  class="MuiAccordionDetails-root css-1is2or-MuiAccordionDetails-root"
+                  id="accordion-details-undefined-ownership"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 css-wg4xta-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiBox-root css-0"
+                      >
+                        <span
+                          class="MuiTypography-root MuiTypography-body3 css-1p3ip6s-MuiTypography-root"
+                        >
+                          Logbook
+                        </span>
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-3uxmf5-MuiTypography-root"
+                        >
+                          Present
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 css-wg4xta-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiBox-root css-0"
+                      >
+                        <span
+                          class="MuiTypography-root MuiTypography-body3 css-1p3ip6s-MuiTypography-root"
+                        >
+                          No of Owners
+                        </span>
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-3uxmf5-MuiTypography-root"
+                        >
+                          8
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4 MuiGrid-grid-md-4 css-wg4xta-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiBox-root css-0"
+                      >
+                        <span
+                          class="MuiTypography-root MuiTypography-body3 css-1p3ip6s-MuiTypography-root"
+                        >
+                          Date of Registration
+                        </span>
+                        <p
+                          class="MuiTypography-root MuiTypography-body1 css-3uxmf5-MuiTypography-root"
+                        >
+                          31 Mar 2015, 09:00
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded MuiAccordion-gutters css-1b2vurp-MuiPaper-root-MuiAccordion-root"
+        data-testid="accordion"
+      >
+        <div
+          aria-controls="accordion-details-undefined-equipment"
+          aria-expanded="false"
+          class="MuiButtonBase-root MuiAccordionSummary-root MuiAccordionSummary-gutters css-1e7l4tw-MuiButtonBase-root-MuiAccordionSummary-root"
+          id="accordion-summary-undefined-equipment"
+          role="button"
+          tabindex="0"
+        >
+          <div
+            class="MuiAccordionSummary-content MuiAccordionSummary-contentGutters css-eqpfi5-MuiAccordionSummary-content"
+          >
+            <h5
+              class="MuiTypography-root MuiTypography-h5 css-kcq9hy-MuiTypography-root"
+            >
+              Equipment information
+            </h5>
+          </div>
+          <div
+            class="MuiAccordionSummary-expandIconWrapper css-yw020d-MuiAccordionSummary-expandIconWrapper"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="KeyboardArrowDownIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-bz4dnt-MuiCollapse-root"
+          style="min-height: 0px;"
+        >
+          <div
+            class="MuiCollapse-wrapper MuiCollapse-vertical css-smkl36-MuiCollapse-wrapper"
+          >
+            <div
+              class="MuiCollapse-wrapperInner MuiCollapse-vertical css-9l5vo-MuiCollapse-wrapperInner"
+            >
+              <div
+                aria-labelledby="accordion-summary-undefined-equipment"
+                class="MuiAccordion-region"
+                id="accordion-details-undefined-equipment"
+                role="region"
+              >
+                <div
+                  class="MuiAccordionDetails-root css-1is2or-MuiAccordionDetails-root"
+                  id="accordion-details-undefined-equipment"
+                >
+                  <div
+                    class="MuiBox-root css-1hdbc19"
+                  >
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 css-3uxmf5-MuiTypography-root"
+                    >
+                      • Air Conditioning;
+                    </p>
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 css-3uxmf5-MuiTypography-root"
+                    >
+                      • Tyre Inflation Kit;
+                    </p>
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 css-3uxmf5-MuiTypography-root"
+                    >
+                      • Photocopy of V5 Present;
+                    </p>
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 css-3uxmf5-MuiTypography-root"
+                    >
+                      • Navigation HDD;
+                    </p>
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 css-3uxmf5-MuiTypography-root"
+                    >
+                      • 17 Alloy Wheels;
+                    </p>
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 css-3uxmf5-MuiTypography-root"
+                    >
+                      • Engine Mods/Upgrades;
+                    </p>
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 css-3uxmf5-MuiTypography-root"
+                    >
+                      • Modifd/Added Body Parts;
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

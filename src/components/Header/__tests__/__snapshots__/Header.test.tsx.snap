@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Renders header correctly with Logo 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-43yz9u"
+  >
+    <img
+      alt="Icon"
+      data-testid="cba-logo"
+      src="icon.jpeg"
+      style="height: 50px; cursor: pointer;"
+    />
+  </div>
+</div>
+`;

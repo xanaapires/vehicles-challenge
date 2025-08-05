@@ -1,19 +1,28 @@
 import React from "react";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { ThemeProvider } from "./components/ThemeProvider";
-import { Typography } from "@mui/material";
-import { defaultColors } from "./components/ThemeProvider/themeConfigs";
+import { ROUTES } from "./utils/routes";
+import { VehiclesList } from "./pages/VehiclesList";
+import { Header } from "./components/Header";
+import { VehicleDetails } from "./pages/VehicleDetails";
 
 const App = () => {
   return (
     <ThemeProvider>
       <BrowserRouter>
-        <Typography variant="h1" sx={{ cursor: "inherit", color: defaultColors.primaryDark }}>
-          Are you ready?
-        </Typography>
-        <Typography color="neutralGrey" variant="body3">
-          Here we goooo
-        </Typography>
+        <Header />
+        <main
+          style={{
+            padding: "24px",
+            minHeight: "calc(100vh - 98px)",
+            height: "100%",
+            backgroundColor: "#f7f7f7",
+          }}>
+          <Routes>
+            <Route path={ROUTES.LISTING} element={<VehiclesList />} />
+            <Route path={ROUTES.VEHICLE_DETAILS} element={<VehicleDetails />} />
+          </Routes>
+        </main>
       </BrowserRouter>
     </ThemeProvider>
   );

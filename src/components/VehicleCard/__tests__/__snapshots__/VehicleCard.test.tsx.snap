@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VehicleCard Renders VehicleCard correctly 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-10trl62"
+    data-testid="vehicle-card"
+  >
+    <div
+      class="MuiBox-root css-1n2mv2k"
+    >
+      <img
+        alt="Car"
+        src="empty_photo.jpg"
+        style="width: 150px; height: 150px; object-fit: cover; object-position: center; border-radius: 12px; display: block; opacity: 0.7;"
+      />
+    </div>
+    <button
+      class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1u2l4gi-MuiButtonBase-root-MuiIconButton-root"
+      tabindex="0"
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        class="MuiSvgIcon-root MuiSvgIcon-colorWarning MuiSvgIcon-fontSizeMedium css-3adcp6-MuiSvgIcon-root"
+        data-testid="favourite-icon"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+        />
+      </svg>
+      <span
+        class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+      />
+    </button>
+    <div
+      class="MuiBox-root css-1hqz9cp"
+    >
+      <div
+        class="MuiBox-root css-0"
+      >
+        <h5
+          class="MuiTypography-root MuiTypography-h5 css-o8v361-MuiTypography-root"
+        >
+          Toyota
+           - 
+          C-HR
+        </h5>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-3uxmf5-MuiTypography-root"
+        >
+          diesel
+           | 
+          2022
+           |
+           
+          743
+           Miles
+        </p>
+      </div>
+      <hr
+        class="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
+      />
+      <div
+        class="MuiBox-root css-1821gv5"
+      >
+        <div
+          class="MuiBox-root css-0"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-body3 css-jouwp7-MuiTypography-root"
+          >
+            Starting at
+          </span>
+          <p
+            class="MuiTypography-root MuiTypography-body1 css-1ap16v6-MuiTypography-root"
+          >
+            £17,000.00
+          </p>
+        </div>
+        <div
+          class="MuiBox-root css-1ffsm0h"
+        >
+          <div
+            class="MuiBox-root css-171onha"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-2d4n43-MuiSvgIcon-root"
+              data-testid="TimerOutlinedIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M15 1H9v2h6zm-4 13h2V8h-2zm8.03-6.61 1.42-1.42c-.43-.51-.9-.99-1.41-1.41l-1.42 1.42C16.07 4.74 14.12 4 12 4c-4.97 0-9 4.03-9 9s4.02 9 9 9 9-4.03 9-9c0-2.12-.74-4.07-1.97-5.61M12 20c-3.87 0-7-3.13-7-7s3.13-7 7-7 7 3.13 7 7-3.13 7-7 7"
+              />
+            </svg>
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1cwj2yy-MuiTypography-root"
+            >
+              in 133 day(s) and 9 hour(s)
+            </p>
+          </div>
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary css-9wvbqu-MuiButtonBase-root-MuiButton-root"
+            data-testid="see-details-button"
+            tabindex="0"
+            type="button"
+          >
+            See details
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
