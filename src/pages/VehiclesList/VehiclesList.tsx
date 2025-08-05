@@ -2,7 +2,7 @@ import React from "react";
 import { Box, Pagination, Switch, Typography } from "@mui/material";
 import Grid from "@mui/material/Grid";
 import { useVehicles } from "../../hooks/useVehicles";
-import useVehiclesStore from "../../store/useVehiclesStore";
+import useVehiclesStore, { OrderBy } from "../../store/useVehiclesStore";
 import { useShallow } from "zustand/react/shallow";
 import { VehicleCard } from "../../components/VehicleCard";
 import { Dropdown } from "../../components/Dropdown";
@@ -18,7 +18,9 @@ const VehiclesList = () => {
     availableModels,
     bidValues,
   } = useVehicles();
-  const { currentPage, setCurrentPage } = useVehiclesStore(useShallow((state) => state));
+  const { currentPage, setCurrentPage, orderBy, setOrderBy } = useVehiclesStore(
+    useShallow((state) => state),
+  );
 
   // @ts-ignore
   const handlePagination = (_, page: number) => {
@@ -60,7 +62,35 @@ const VehiclesList = () => {
           value={filters?.endBid}
         />
       </Grid>
-      <Grid item xs={12} sm={12} md={12}>
+      <Grid item xs={12} sm={6} md={3}>
+        <Dropdown
+          label="Order by"
+          options={[
+            {
+              label: "Starting bid",
+              value: "startingBid",
+            },
+            {
+              label: "Make",
+              value: "make",
+            },
+            {
+              label: "Mileage",
+              value: "mileage",
+            },
+            {
+              label: "Auction Date",
+              value: "auctionDate",
+            },
+          ]}
+          onChange={(value) => {
+            setCurrentPage(1);
+            setOrderBy?.(value as OrderBy);
+          }}
+          value={orderBy}
+        />
+      </Grid>
+      <Grid item xs={12} sm={6} md={6}>
         <Box display="flex" gap="4px" alignItems="center">
           <Switch onChange={(_, value) => applyFilter?.("favouritesOnly", value)} />
           <Typography variant="body3" color={defaultColors.neutralDarkGrey}>
